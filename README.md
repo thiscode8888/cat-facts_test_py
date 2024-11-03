@@ -15,7 +15,7 @@
 | Find Fact by ID & Assert Status Code (200) | Asserting request's response status code is as expected. A basic test to verify positive scenarios. |
 | Invalid Fact ID to Assert Negative Status Code (400) | Asserting that providing the wrong fact ID, gives the correct negative response. A basic test to verify negative scenarios. |
 | Facts API Response Content Type Check | Verify response headers for content type. Headers are a very important part of API requests and therefore here we have a basic header test to verify the responses' content.         |
-| Facts API Response Body Check | It is imperative we verify the actual body and object types of an API response. This is a simple hard-coded/prettified/string body response verification |
+| Facts API Response Body Check | It is imperative we verify the actual body and object types of an API response. This is a simple hard-coded/prettified/string body response verification. |
 
 ## Additional Improvements
 1. Tests can start having certain pre-requisites. For example, if we see that the content-type of a response is going to be JSON, we call a particular prettify function that is used for JSON response. Then we can check the body object types that we expect, instead of the hard-coded string.
